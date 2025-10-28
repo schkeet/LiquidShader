@@ -442,7 +442,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 1c55c13e1d152c34588e3bc22959ed08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.018
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c55c13e1d152c34588e3bc22959ed08, type: 3}
       propertyPath: m_LocalPosition.y
@@ -450,7 +450,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c55c13e1d152c34588e3bc22959ed08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 0.022
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 1c55c13e1d152c34588e3bc22959ed08, type: 3}
       propertyPath: m_LocalRotation.w
@@ -521,6 +521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 465c474d34486c14ca05756e9be5bbd6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LiquidShaderScript
+  FillAmount: 0.5
   WobbleSpeedMove: 2
   Recovery: 1
   liquidMaterial: {fileID: 2100000, guid: 99b255652ef623b47a5e11780657480f, type: 2}
